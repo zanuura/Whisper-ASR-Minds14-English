@@ -51,16 +51,16 @@ distribution:
 ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/a6ebbe25-ff64-4861-b43a-44412618ebaa)
 
 - Aboard:
--   transcript: yes I'm going to be traveling to the United Kingdom for a couple of weeks next month I need to know if I can use my card from from my bank account while I'm in Europe
--    ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/a13bed07-272b-44ba-b1d2-edb4bcdc708e)
+  - transcript: yes I'm going to be traveling to the United Kingdom for a couple of weeks next month I need to know if I can use my card from from my bank account while I'm in Europe
+  - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/a13bed07-272b-44ba-b1d2-edb4bcdc708e)
 
 - Address:
--   Transcript: hi yes I like to change my address
--    ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/8a970884-9e67-4248-91ac-e96c34a61362)
+  - Transcript: hi yes I like to change my address
+  - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/8a970884-9e67-4248-91ac-e96c34a61362)
 
 - App Error:
--    Transcript: high on the app isn't loading information
--    ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/0bd2bc10-ba01-4043-a945-4ba20e15c44e)
+  - Transcript: high on the app isn't loading information
+  - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/0bd2bc10-ba01-4043-a945-4ba20e15c44e)
 
 
 ### Training:
@@ -124,7 +124,7 @@ Step	Training Loss	Validation Loss	Wer Ortho	Wer	Accuracy	F1 Score	R2 Score	Bleu
 
 While the model demonstrates commendable performance on shorter audio segments, challenges arise with longer audio inputs. Predictions are summarized with metrics encompassing Word Error Rate (WER), accuracy, F1 score, BLEU score, and Rouge scores.
 
-```json
+```shell
 [{'num': 0,
   'wer': 0.0,
   'werotho': '0.00%',
