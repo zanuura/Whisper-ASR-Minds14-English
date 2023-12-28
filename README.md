@@ -1,3 +1,6 @@
+![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/eb5e21d1-d55f-4291-aedb-02ebc9f2f370)
+
+
 # Whisper Automatic Speech Recognition Minds14
 
 ## Absatrct:
@@ -48,19 +51,19 @@ The intent_class label is have 14 different values:
 #### Visualize intent_class Audio
 
 distribution:
-![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/a6ebbe25-ff64-4861-b43a-44412618ebaa)
+![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/9d2920cf-f726-4413-9583-e43df2fd7332)
 
 - Aboard:
   - transcript: yes I'm going to be traveling to the United Kingdom for a couple of weeks next month I need to know if I can use my card from from my bank account while I'm in Europe
-  - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/a13bed07-272b-44ba-b1d2-edb4bcdc708e)
+  - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/008756c2-5bd4-4179-8db1-e262a1b151a0)
 
 - Address:
   - Transcript: hi yes I like to change my address
-  - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/8a970884-9e67-4248-91ac-e96c34a61362)
+  - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/84067c42-1764-458a-97c3-e0295c4eb2d5)
 
 - App Error:
   - Transcript: high on the app isn't loading information
-  - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/0bd2bc10-ba01-4043-a945-4ba20e15c44e)
+  - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/a63a8eff-17e4-4b7c-b884-6f19881047c0)
 
 
 ### Training:
