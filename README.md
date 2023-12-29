@@ -54,15 +54,15 @@ distribution:
 ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/9d2920cf-f726-4413-9583-e43df2fd7332)
 
 - Aboard:
-  - transcript: yes I'm going to be traveling to the United Kingdom for a couple of weeks next month I need to know if I can use my card from from my bank account while I'm in Europe
+  - transcript: "yes I'm going to be traveling to the United Kingdom for a couple of weeks next month I need to know if I can use my card from from my bank account while I'm in Europe".
   - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/008756c2-5bd4-4179-8db1-e262a1b151a0)
 
 - Address:
-  - Transcript: hi yes I like to change my address
+  - Transcript: "hi yes I like to change my address".
   - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/84067c42-1764-458a-97c3-e0295c4eb2d5)
 
 - App Error:
-  - Transcript: high on the app isn't loading information
+  - Transcript: "high on the app isn't loading information".
   - ![image](https://github.com/zanuura/Whisper-ASR-Minds14-English/assets/73764446/a63a8eff-17e4-4b7c-b884-6f19881047c0)
 
 
