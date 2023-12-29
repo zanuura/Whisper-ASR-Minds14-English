@@ -3,7 +3,7 @@
 
 # Whisper Automatic Speech Recognition Minds14
 
-## Absatrct:
+## Abstract:
 
 In digital era, automatic speech recognition (ASR) has become a key component in applications that require voice interaction. This project explores the application of pretrained ASR models, specifically the Whisper-tiny model, in speech recognition from the MINDS14 dataset. Whisper-tiny is known for its advantages in minimizing size and speed of inference, making it ideal for devices with limited resources. The MINDS14 dataset, rich in language and accent variations, challenges ASR models in understanding variations and nuances in everyday speech. By integrating these two components, this research aims to improve speech recognition accuracy and understand the limitations and potential of pretrained ASR models in real application contexts.
 
@@ -34,19 +34,19 @@ For this study, a subset of the dataset encompassing en-US, en-GB, and en-AU sam
 The intent_class label is have 14 different values:
 
 - 0 = aboard
-- 1= address
-- 2= app_error
-- 3= atm_limit
-- 4=balance
-- 5= business_loan
-- 6=card_issues
-- 7= cash_deposite
-- 8=direct_debit
-- 9=freeze
-- 10=latest_transactions
-- 11=joint_account
-- 12=high_value_payment
-- 13=pay_bill
+- 1 = address
+- 2 = app_error
+- 3 = atm_limit
+- 4 = balance
+- 5 = business_loan
+- 6 = card_issues
+- 7 = cash_deposite
+- 8 = direct_debit
+- 9 = freeze
+- 10 = latest_transactions
+- 11 = joint_account
+- 12 = high_value_payment
+- 13 = pay_bill
 
 #### Visualize intent_class Audio
 
