@@ -13,7 +13,7 @@ To cultivate an Automatic Speech Recognition (ASR) system tailored for English l
 
 ## Datasets:
 
-MINDS-14 is a specialized dataset concentrating on multilingual intent detection within the e-banking domain. Through the fusion of machine translation models and sophisticated multilingual sentence encoders such as LaBSE, this research has pioneered robust intent detection spanning a myriad of languages. Noteworthy insights highlight the prowess of the "ASR-then-translate" paradigm, particularly for predominant languages, underscoring the significance of in-domain model fine-tuning. This venture accentuates the prospective applications of multilingual intent detection, paving the way for expansive integration within voice-centric conversational AI realms.
+[MINDS-14](https://huggingface.co/datasets/PolyAI/minds14) is a specialized dataset concentrating on multilingual intent detection within the e-banking domain. Through the fusion of machine translation models and sophisticated multilingual sentence encoders such as LaBSE, this research has pioneered robust intent detection spanning a myriad of languages. Noteworthy insights highlight the prowess of the "ASR-then-translate" paradigm, particularly for predominant languages, underscoring the significance of in-domain model fine-tuning. This venture accentuates the prospective applications of multilingual intent detection, paving the way for expansive integration within voice-centric conversational AI realms.
 
 For this study, a subset of the dataset encompassing en-US, en-GB, and en-AU samples was employed.
 
@@ -68,7 +68,7 @@ distribution:
 
 ### Training:
 
-For the model i using Whisper-tiny.
+For the model i using [Whisper-tiny](https://huggingface.co/openai/whisper-tiny).
 Trainng Configuration:
 ```python
 training_args = Seq2SeqTrainingArguments(
@@ -309,4 +309,12 @@ Overall Bleu: 0.02%
 # Conlusion:
 
 The integration of the Whisper-tiny model with the MINDS14 dataset underscores the potential and challenges inherent in deploying pretrained ASR models for multilingual intent detection. While the model exhibits proficiency in certain contexts, notably shorter audio segments, inherent complexities associated with accent variations and diverse linguistic nuances necessitate further exploration and refinement. Future endeavors may benefit from focused fine-tuning strategies tailored to specific linguistic subsets, paving the way for more robust and versatile voice-centric AI applications.
+
+# References:
+
+- https://huggingface.co/openai/whisper-tiny
+- https://arxiv.org/abs/2212.04356
+- https://huggingface.co/docs/transformers/tasks/asr
+- https://huggingface.co/blog/fine-tune-whisper
+- Datasets: https://huggingface.co/datasets/PolyAI/minds14
 
