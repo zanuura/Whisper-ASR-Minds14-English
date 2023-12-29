@@ -302,8 +302,8 @@ print(f"Overall Bleu: {overall_bleu:.2f}%")
 ```shell
 Overall Accuracy: 63.04%
 Overall WER: 0.37%
-Overall WER: 0.68%
-Overall WER: 0.02%
+Overall F1: 0.68%
+Overall Bleu: 0.02%
 ```
 
 # Conlusion:
